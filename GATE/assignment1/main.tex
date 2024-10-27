@@ -1,0 +1,283 @@
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{tfrupee}
+\setlength{\headheight}{1cm}
+\setlength{\headsep}{0mm}
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+\usepackage{tikz}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE-2007-PH}
+\author{EE24BTECH11017-D.KARTHIK}
+\maketitle
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt}
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+\setcounter{enumi}{30}  
+    \item The Lagrangian of a particle of mass $m$ is $L = \frac{m}{2}\sbrak{\brak{\frac{dx}{dt}}^2 +\brak{\frac{dy}{dt}}^2 +\brak{\frac{dx}{dt}}^2}-\frac{V}{2}\brak{x^2+y^2}+W\sin{\omega t}$, where $V,W$ and $\omega$ are constants. The conserved quantities are\hfill{$\sbrak{\text{GATE 2007}}$} \begin{enumerate}
+    \item energy and $z-$component of linear momentum only.
+    \item energy and $z-$component of angular momentum only. 
+    \item $z-$components of both linear and angular momenta only.
+    \item energy and $z-$component of both linear and angular momenta.
+\end{enumerate}
+\item Three particles of mass $m$ each situated at $x_1\brak{t}, x_2\brak{t},$ and $x_3\brak{t}$ respectively are connected by two springs of spring constant $k$ and un-stretched length $l$. The system is free to oscillate only in one direction along straight line joining all the three particles. The Lagrangian of the system is \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{enumerate}
+    \item $L = \frac{m}{2}\sbrak{\brak{\frac{dx_1}{dt}}^2 +\brak{\frac{dx_2}{dt}}^2 +\brak{\frac{dx_1}{dt}}^2}-\frac{k}{2}\brak{x_1-x_2-l}^2 + \frac{k}{2}\brak{x_3 - x_2 - l}^2$
+     \item $L = \frac{m}{2}\sbrak{\brak{\frac{dx_1}{dt}}^2 +\brak{\frac{dx_2}{dt}}^2 +\brak{\frac{dx_1}{dt}}^2}-\frac{k}{2}\brak{x_1-x_3-l}^2 + \frac{k}{2}\brak{x_3 - x_2 - l}^2$
+      \item $L = \frac{m}{2}\sbrak{\brak{\frac{dx_1}{dt}}^2 +\brak{\frac{dx_2}{dt}}^2 +\brak{\frac{dx_1}{dt}}^2}-\frac{k}{2}\brak{x_1-x_2+l}^2 - \frac{k}{2}\brak{x_3 - x_2 + l}^2$
+       \item $L = \frac{m}{2}\sbrak{\brak{\frac{dx_1}{dt}}^2 +\brak{\frac{dx_2}{dt}}^2 +\brak{\frac{dx_1}{dt}}^2}-\frac{k}{2}\brak{x_1-x_2-l}^2 - \frac{k}{2}\brak{x_3 - x_2 - l}^2$
+\end{enumerate}
+\item The Hamiltonian of a particle is $H = \frac{p^2}{2m} + pq$, where $q$ is the generalized coordinate and $p$ is the corresponding canonical momentum. The Lagrangian is \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $\frac{m}{2}\brak{\frac{dq}{dt} + q}^2$
+    \item $\frac{m}{2}\brak{\frac{dq}{dt} - q}^2$
+    \item $\frac{m}{2}\sbrak{\brak{\frac{dq}{dt}}^2 + q\frac{dq}{dt}-q^2}^2$
+    \item $\frac{m}{2}\sbrak{\brak{\frac{dq}{dt}}^2 - q\frac{dq}{dt}+q^2}^2$
+\end{enumerate}
+\end{multicols}
+\item A toroidal coil has $N$ closely-wound turns. Assume the current through the coil to be $I$ and the toroid is filled with a magnetic material of relative permittivity $\mu_r$. The magnitude of magnetic induction $\Vec{\overrightarrow{B}}$ inside the toriod, at a radial distance $r$ from the axis, is given by 
+\hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\mu_r\mu_0NIr$
+    \item $\frac{\mu_r\mu_0NI}{r}$
+    \item $\frac{\mu_r\mu_0NI}{2\pi r}$
+    \item $2\pi\mu_r\mu_0NIr$
+\end{enumerate}
+\end{multicols}
+\item An electromagnetic wave with $\Vec{\overrightarrow{E
+}}\brak{z,t} = E_ocos\brak{\omega t-kz}\hat{i}$ is traveling in free space and crosses a disc of radius $2 m$ placed perpendicular to the $z-$axis. If $E_o = 60 V m^-1$, the average power, in Watt, crossing the disc along $z-$direction is 
+\hfill{$\sbrak{\text{GATE 2007}}$} \begin{multicols}{4}  
+\begin{enumerate}
+    \item $30$
+    \item $60$
+    \item $120$
+    \item $270$
+\end{enumerate}
+\end{multicols}
+\item Can the following scalar and vector potentials describe an electromagnetic field? \\
+$\phi\brak{\Vec{\overrightarrow{x}},t}=3xyz-4t$\\
+$\Vec{\overrightarrow{A}}\brak{\Vec{\overrightarrow{x}},t}= \brak{2x=\omega t}\hat{i}+\brak{y-2z}\hat{j}+\brak{z-2xe^{i\omega t}}\hat{k}$\\
+where $\omega$ is a constant.
+\hfill{$\sbrak{\text{GATE 2007}}$} \begin{multicols}{2}
+\begin{enumerate}
+    \item Yes, in the Coulomb gauge.
+    \item Yes, in the Lorentz gauge.
+    \item Yes,provided $\omega = 0$.
+    \item No.
+    
+\end{enumerate}
+\end{multicols}
+\item For a particle of mass $m$ in a one-dimensional harmonic oscillator potential of the form $V\brak{x}=\frac{1}{2}m\omega^2x^2$, the first excited energy eigenstate is $\psi\brak{x} = xe^{-ax^2}$. The value if $a$ is \hfill{$\sbrak{\text{GATE 2007}}$} \begin{multicols}{4}    
+\begin{enumerate}
+    \item $\frac{m\omega}{4\hbar}$
+    \item $\frac{m\omega}{3\hbar}$
+    \item $\frac{m\omega}{2\hbar}$
+    \item $\frac{2m\omega}{3\hbar}$
+\end{enumerate}
+\end{multicols}
+\item If $\sbrak{x,p}=i\hbar$, the value of $\sbrak{x^3,p}$ is \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $2i\hbar x^2$
+    \item $-2i\hbar x^2$
+    \item $3i\hbar x^2$
+    \item $-3i\hbar x^2$
+    
+\end{enumerate}
+\end{multicols}
+\item There are only three bound states for a particle of mass $m$ in one-dimensional potential well of the form shown in the figure. The depth $V_o$ of the potential satisfies 
+\hfill{$\sbrak{\text{GATE 2007}}$} 
+
+
+
+\begin{center}
+\begin{tikzpicture}[scale=0.7] % Adjust scale as needed to make the diagram smaller or larger
+    % Draw axes
+    \draw[->] (-2, 0) -- (3, 0) node[right] {$x$}; % x-axis
+    \draw[->] (0, -2) -- (0, 2) node[above] {$V$}; % y-axis
+
+    % Draw the potential well
+    \draw[-, thick] (-1.5, 0) -- (-1, 0);
+    \draw[-, thick] (-1, 0) -- (-1, -1.5);
+    \draw[-, thick] (-1, -1.5) -- (1, -1.5);
+    \draw[-, thick] (1, -1.5) -- (1, 0);
+    \draw[-, thick] (1, 0) -- (1.5, 0);
+
+    % Labels
+    \node at (-1, 0.2) {$-\frac{a}{2}$};
+    \node at (1, 0.2) {$+\frac{a}{2}$};
+    \node at (1.2, -1.5) {$-V_0$}; % Move -V0 label slightly to the right
+
+\end{tikzpicture}
+\end{center}
+
+
+
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $\frac{2\pi^2\hbar^2}{ma^2}<V_o< \frac{9\pi^2\hbar^2}{2ma^2} $
+     \item $\frac{\pi^2\hbar^2}{ma^2}<V_o< \frac{2\pi^2\hbar^2}{ma^2} $
+      \item $\frac{2\pi^2\hbar^2}{ma^2}<V_o< \frac{8\pi^2\hbar^2}{2ma^2} $
+       \item $\frac{2\pi^2\hbar^2}{ma^2}<V_o< \frac{50\pi^2\hbar^2}{2ma^2} $ 
+       
+\end{enumerate}
+\end{multicols}
+\item An atomic state of hydrogen is represented by the following wavefunction: $\psi\brak{r,\theta,\phi}= \frac{1}{\sqrt{2}}\brak{\frac{1}{a_o}}^\frac{3}{2} \brak{1-\frac{r}{2a_o}}e^{-\frac{r}{2a_o}}\cos{\theta}$.\\
+where $a_o$ is a constant. The quantum numbers of the state are
+\hfill{$\sbrak{\text{GATE 2007}}$} \begin{multicols}{2}
+\begin{enumerate}
+    \item $l=0,m=0,n=1$
+    \item $l=1,m=1,n=2$\item $l=1,m=0,n=2$\item $l=2,m=0,n=3$
+\end{enumerate} 
+\end{multicols}
+\item Three operators $X,Y$ and $Z$ satisfy the commutation relations $\sbrak{X,Y}=i\hbar Z,\sbrak{Y,Z=i\hbar X}$ and $\sbrak{Z,X}=i\hbar Y$.\\
+The set of all possible eigenvalues of the operator Z, in units of $\hbar$, is \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{2}
+ \begin{enumerate}
+    \item \cbrak{0,\pm1,\pm2,\pm3,\dots}
+    \item \cbrak{\frac{1}{2},1,\frac{3}{2},2,\frac{5}{2},\dots}
+    \item 
+    \cbrak{0,\pm\frac{1}{2},\pm1,\pm\frac{3}{2},\pm2,\pm\frac{5}{2},\dots}
+    \item \cbrak{-\frac{1}{2},+\frac{1}{2}}
+\end{enumerate}
+\end{multicols}
+\item A heat pump working on the Carnot cycle maintains the inside temperature of a house at $22\degree C$ by supplying $450 kJs^{-1}$. If the outside temperature is $0\degree C$,the heat taken, in $kjs^{-1}$,from the outside air is approximately \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{4}
+ \begin{enumerate}
+    \item $487$
+    \item $470$
+    \item $467$
+    \item $417$
+\end{enumerate}
+\end{multicols}
+\item The vapour pressure $p$$\brak{\text{in  $mm$  of Hg}}$ of a solid, at temperature $T$, is expressed by $\ln{p}=23-\frac{3863}{T}$ and that of its liquid phase by $\ln{p}= 19-\frac{3063}{T}$. The triple point $\brak{\text{in  Kelvin}}$ of the material is \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $185$
+    \item $190$
+    \item $195$
+    \item $200$
+\end{enumerate}
+\end{multicols}
+\item The free energy for a photon gas is given by $F = -\brak{\frac{a}{3}}VT^4$, where $a$ is a constant.The entropy $S$ and the pressure $P$ of the photon gas are \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $S=\frac{4}{3}aVT^3, P=\frac{a}{3}T^4$
+    \item $S=\frac{1}{3}aVT^4, P=\frac{4a}{3}T^3$
+    \item $S=\frac{4}{3}aVT^4, P=\frac{a}{3}T^3$
+    \item $S=\frac{1}{3}aVT^3, P=\frac{4a}{3}T^4$
+\end{enumerate}
+\end{multicols}
+\item A system has energy levels $E_o,2E_o,3E_o\dots,$ where the excited states are triply degenerate. Four non- interacting bosons are placed in the system. If the total energy of the bosons is $5E_o$, the number of microstates is \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $2$
+    \item $3$
+    \item $4$
+    \item $5$
+\end{enumerate}
+\end{multicols}
+\item In the accordance with the selection rules for the electric dipole transitions, the $4^3P_1$ state of helium can decay by photon emission to the states \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $2^1S_o,2^1P_1$ and $3^1D_2$
+     \item $3^1P_1,3^1D_2$ and $3^1S_o$
+      \item $3^3P_2,3^3D_3$ and $3^3P_o$
+       \item $2^3S_1,3^3D_2$ and $3^3D_1$
+\end{enumerate}
+\end{multicols}
+\item If an atom is in the ${}^3D_3$ state,the angle between its orbital and spin angular momentum vectors \brak{\Vec{\overrightarrow{L}}\text{ and }\Vec{\overrightarrow{S}}} is \hfill{$\sbrak{\text{GATE 2007}}$} \begin{multicols}{4}
+\begin{enumerate}
+    \item $\cos^{-1}{\frac{1}{\sqrt{3}}}$
+     \item $\cos^{-1}\frac{2}{\sqrt{3}}$
+      \item $\cos^{-1}\frac{1}{\sqrt{2}}$
+       \item $\cos{^-1}\frac{\sqrt{3}}{2}$
+\end{enumerate}
+\end{multicols}
+\item The hyperfine structure of $Na\brak{3^2P_{\frac{3}{2}}}$ with nuclear spin $i=\frac{3}{2}$ has \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $1$ state
+    \item $2$ state
+    \item $3$ state
+    \item $4$ state
+\end{enumerate}
+\end{multicols}
+\item The allowed rotational energy levels of a rigid hetero-nuclear diatomic molecules are expressed as $\epsilon_J=BJ\brak{J+1}$, where $B$ is the rotational constant and $J$ is a rotational quantum number.\\
+In a system of such diatomic molecules of reduced mass $\mu$, some of the atoms of one element are replaced by a heavier isotope, such that the reduced mass is changed to $1.05\mu$. In the rotational spectrum of the system, the shift in the spectral line, corresponding to a transition $J=4\xrightarrow{}J=5$, is \hfill{$\sbrak{\text{GATE 2007}}$} 
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $0.475B$
+    \item $0.50 B$
+    \item $0.95 B$
+    \item $1.0 B$
+    
+\end{enumerate}
+\end{multicols}
+\item The number of fundamental vibrational modes of $CO_2$ molecules is \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{enumerate}
+    \item four : 2 are Raman active 2 are infrared active.
+     \item four : 1 are Raman active 3 are infrared active.
+      \item four : 1 are Raman active 2 are infrared active.
+       \item four : 2 are Raman active 1 are infrared active.
+    
+\end{enumerate}
+\item A piece of paraffin is placed in a uniform magnetic field $H_o$. The sample contains hydrogen nuclei of mass $m_p$. which interact only with external magnetic field. An additional oscillating magnetic field is applied to observe resonance absorptions takes place, is given by \hfill{$\sbrak{\text{GATE 2007}}$} 
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $\frac{3g_1 eH_o}{2\pi m_p}$
+    \item $\frac{3g_1 eH_o}{4\pi m_p}$
+    \item $\frac{g_1 eH_o}{2\pi m_p}$
+    \item $\frac{g_1 eH_o}{4\pi m_p}$
+\end{enumerate}
+\end{multicols}
+\end{enumerate}
+
+
+\end{document}
