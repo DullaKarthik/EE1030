@@ -1,0 +1,240 @@
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{tfrupee}
+\setlength{\headheight}{1cm}
+\setlength{\headsep}{0mm}
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+\usepackage{tikz}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE-2007-PH}
+\author{EE24BTECH11017-D.KARTHIK}
+\maketitle
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt}
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+    \setcounter{enumi}{52}
+    \item For the $O^{17}$ nucleus $\brak{A = 17, Z=8}$, the effective magnetic moment is given by, 
+    
+    \begin{center}
+        
+    
+       $ \Vec{\overrightarrow{\mu}{_{eff}}} = \frac{eh}{2Mc}g\Vec{\overrightarrow{J}}$
+    \end{center}
+    where $g$ is equal to, $\brak{g_s = 5.59 \text{ for proton and} -3.83 \text{ for neutron}}$
+    \begin{multicols}{4}
+    \begin{enumerate}
+    
+        \item $1.12$ 
+        \item $-0.77$ 
+        \item $-1.28$ 
+        \item $1.28$ 
+    \end{enumerate}
+    \end{multicols}
+      Consider the following circuit:
+    \begin{figure}[!ht]
+\centering
+\resizebox{6cm}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (5.5,12.75) to[short, -o] (4.75,12.75) ;
+\draw [ line width=0.5pt](5.5,12.75) to[R] (7.75,12.75);
+\draw [ line width=0.5pt](7.75,12.75) to[short] (9.5,12.75);
+\draw [line width=0.5pt](8,12.75) to[C] (8,10.75);
+\draw [line width=0.5pt](8,10.75) to (8,10.25) node[ground]{};
+\draw [ line width=0.5pt](11,12.25) node[op amp,scale=1] (opamp2) {};
+\draw [ line width=0.5pt](opamp2.+) to[short] (9.5,11.75);
+\draw [ line width=0.5pt] (opamp2.-) to[short] (9.5,12.75);
+\draw [ line width=0.5pt](12.2,12.25) to[short](12.5,12.25);
+\draw [ line width=0.5pt](9.5,11.75) to[short] (9.5,9);
+\draw [ line width=0.5pt](12.5,12.25) to[R] (12.5,9);
+\draw [ line width=0.5pt](9.5,9) to[short] (12.5,9);
+\draw [ line width=0.5pt](12.5,9) to[R] (12.5,7.25);
+\draw [line width=0.5pt](12.5,7.25) to (12.5,7) node[ground]{};
+\draw [ line width=0.5pt](12.5,12.25) to[short, -o] (14.25,12.25) ;
+\node [font=\large] at (4,12.75) {\textbf{V\brak{in}}};
+\node [font=\large] at (6.5,13.5) {\textbf{10k$\Omega$}};
+\node [font=\large] at (6.5,11.5) {\textbf{1000pF}};
+\node [font=\large] at (15,12.5) {\textbf{V\brak{out}}};
+\node [font=\large] at (13.25,10.75) {\textbf{1k$\Omega$}};
+\node [font=\large] at (13.25,8) {\textbf{2k$\Omega$}};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
+    \item  For this circuit the frequency above which the gain will decrease by $20$ $dB$ per decade is 
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item $15.9$ kHz
+        \item $1.2$ kHz
+        \item $5.6$ kHz
+        \item $22.5$ kHz
+    \end{enumerate}
+    \end{multicols}
+    \item 
+    At $1.2$kHz the closed loop gain is 
+    \begin{multicols}{4}
+        \begin{enumerate}
+            \item $1$
+            \item $1.5$
+            \item $3$
+            \item $0.5$
+        \end{enumerate}
+    \end{multicols}
+  
+      \textbf{General Aptitude \brak{\text{GA}} Questions}\\
+    \textbf{Q.56-Q.60 carry one mark each.}
+    \item A number is as much greater than $75$ as it is smaller than $117$. The number is:
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item $91$
+        \item $93$
+        \item $89$
+        \item $96$\\
+    \end{enumerate}
+        
+    \end{multicols}
+\item $\underset{\text{I}}{\text{\underline{The professor}}}$ $\underset{\text{II}}{\text{\underline{ordered to}}}$ $\underset{\text{III}}{\text{\underline{the students to go}}}$ $\underset{\text{IV}}{\text{\underline{out of the class.}}}$
+
+\begin{multicols}{4}
+\begin{enumerate}
+    \item I
+    \item II
+    \item III
+    \item IV
+\end{enumerate}
+    
+\end{multicols}
+\item Which of the following options is the closest in meaning to the word given below:\\
+Primeval
+\begin{multicols}{2}
+\begin{enumerate}
+        \item Modern
+        \item Historic
+        \item Primitive
+        \item Antique
+    \end{enumerate}
+\end{multicols}
+\item Friendship,no matter how \rule{1.7cm}{0.2mm} it is, has its limitations.
+\begin{enumerate}
+    \item cordial
+    \item intimate
+    \item secret
+    \item pleasant
+\end{enumerate}
+\item Select the pair that best expresses a relationship similar to that expressed in the pair:\\
+\textbf{Medicine: Health}
+\begin{multicols}{2}
+\begin{enumerate}
+    \item Science:Experiment
+    \item Wealth:Peace
+    \item Education:Knowledge
+    \item Money:Happiness
+\end{enumerate}
+\end{multicols}
+\textbf{Q.61 to Q.65 carry two marks each.}
+\item $X$ and $Y$ are two positive real numbers such that $2X + Y \leq 6$ and $X + 2Y \leq8.$ For which of the following values of $\brak{X,Y}$ the function $f\brak{X,Y} = 3X + 6Y$ will give maximum value?
+\begin{enumerate}
+    \item $\brak{\frac{4}{3},\frac{10}{3}}$
+    \item $\brak{\frac{8}{3},\frac{20}{3}}$
+    \item $\brak{\frac{8}{3},\frac{10}{3}}$
+    \item $\brak{\frac{4}{3},\frac{20}{3}}$
+\end{enumerate}
+\item If $\abs{4X - 7} = 5$ then the values of $2\abs{X} - \abs{-X}$ is:
+\begin{multicols}{4}
+\begin{enumerate}
+    \item $2,\frac{1}{3}$
+    \item $\frac{1}{2},3$
+    \item $\frac{3}{2},9$
+    \item $\frac{2}{3},9$
+\end{enumerate}
+\end{multicols}
+\item Following table provides figures $\brak{\text{in rupees}}$ on annual expenditure od a firm for two years$-2010 \text{ and } 2011$.\\
+
+    \begin{center}
+    \begin{tabular}{|l|r|r|}
+        \hline
+        \textbf{Category} & \textbf{2010 } & \textbf{2011 } \\
+        \hline
+        Raw material & 5200 & 6240 \\
+        Power \& fuel & 7000 & 9450 \\
+        Salary \& wages & 9000 & 12600 \\
+        Plant \& machinery & 20000 & 25000 \\
+        Advertising & 15000 & 19500 \\
+        Research \& Development & 22000 & 26400 \\
+        \hline
+    \end{tabular}
+\end{center}
+In $2011$, which of the following two categories have registered increase by same percentage?
+\begin{enumerate}
+    \item Raw material and Salary $\&$ wages
+    \item Salary $\&$ wages and Advertising
+    \item Power $\&$ fuel and Advertising
+    \item Raw material and Research $\&$ Development
+\end{enumerate}
+\item A firm is selling its product at $RS. 60$ per unit. The total cost of production is $Rs. 100$ and firm is earning total profit of $Rs. 500.$ Later, the total cost increased by $30\%$. By what percentage the price should be increased to maintained the same profit level.
+\begin{multicols}{4}
+    \begin{enumerate}
+        \item $5$
+        \item $10$
+        \item $15$
+        \item $30$
+    \end{enumerate}
+\end{multicols}
+\item Abhishek is elder to Savar.\\
+Savar is younger to Anshul.\\
+Which of the given conclusions is logically valid and is inferred from the above statements?
+\begin{enumerate}
+    \item Abhishek is elder to Anshul
+    \item  Anshul is elder to Abhishek
+    \item Abhishek and Anshul are of the same age
+    \item No conclusion follows
+\end{enumerate}
+\end{enumerate}
+
+
+\end{document}
