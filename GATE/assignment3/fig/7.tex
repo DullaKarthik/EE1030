@@ -1,0 +1,28 @@
+\begin{centering}
+\resizebox{0.6\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+
+% Circle with gray fill
+\draw[fill=gray!30] (5.75,11.25) circle (1.5cm);
+\draw[->, >=Stealth] (5.75,11.25) -- (5.75,14);
+\draw[->, >=Stealth] (5.75,11.25) -- (9.75,11.25);
+\draw[->, >=Stealth] (5.75,11.25) -- (3.75,8.75);
+\node[font=\Large] at (6,14) {X};
+\node[font=\Large] at (9,11) {Z};
+\node[font=\Large] at (4.5,9) {Y};
+\node[font=\Large] at (5.5,8) {\brak{i}};
+
+% Ellipse with gray fill
+\draw[fill=gray!30] (15.75,11.5) ellipse (2cm and 1cm);
+\draw[->, >=Stealth] (15.75,11.5) -- (15.75,13.75);
+\draw[->, >=Stealth] (15.75,11.5) -- (20.75,11.5);
+\draw[->, >=Stealth] (15.75,11.5) -- (14,9);
+\node[font=\Large] at (15.75,14) {X};
+\node[font=\Large] at (20,11) {Z};
+\node[font=\Large] at (15,9.5) {Y};
+\node[font=\Large] at (16,8) {\brak{ii}};
+
+\end{circuitikz}
+}%
+\end{centering}
